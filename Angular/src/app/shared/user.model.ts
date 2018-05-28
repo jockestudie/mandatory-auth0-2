@@ -5,3 +5,5 @@ export class User {
     FirstName: string;
     LastName: string;
 }
+
+//Separat fil för alla värden i "User"

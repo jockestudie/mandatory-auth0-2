@@ -14,7 +14,8 @@ export class SignInComponent implements OnInit {
 
   ngOnInit() {
   }
-
+   /*Här loggas du in "onSubmit"*/ 
+   
   OnSubmit(userName,password){
      this.userService.userAuthentication(userName,password).subscribe((data : any)=>{
       localStorage.setItem('userToken',data.access_token);

@@ -5,6 +5,8 @@ import { Observable } from 'rxjs';
 import 'rxjs/add/operator/map';
 import { User } from './user.model';
 
+//Hämtar "User" värden från user.model filen
+
 @Injectable()
 export class UserService {
   readonly rootUrl = 'http://localhost:35257';
