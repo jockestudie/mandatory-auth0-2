@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
     });
   }
-
+/*Plockar bort token och leder tillbaka till login */ 
   Logout() {
     localStorage.removeItem('userToken');
     this.router.navigate(['/login']);
